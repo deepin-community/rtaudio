@@ -1,8 +1,28 @@
-rtaudio (5.1.0~ds1-1) UNRELEASED; urgency=medium
+rtaudio (5.2.0~ds1-2) unstable; urgency=medium
 
-  * update
+  [ Dennis Braun ]
+  * Bump Standards Version to 4.6.1
+  * Add libjack-jackd2-dev to B-D and librtaudio-dev
 
- -- Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>  Wed, 25 May 2022 10:59:13 +0800
+  [ IOhannes m zmölnig ]
+  * Apply 'wrap-and-sort -ast'
+
+ -- IOhannes m zmölnig (Debian/GNU) <umlaeute@debian.org>  Wed, 28 Sep 2022 18:40:45 +0200
+
+rtaudio (5.2.0~ds1-1) unstable; urgency=medium
+
+  [ IOhannes m zmölnig (Debian/GNU) ]
+  * New upstream version 5.2.0~ds1
+    * Refresh patches
+  * Mark libtool and static libraries as not-installed
+  * Update d/copyright
+  * Bump dh-compat to 13
+  * Bump standards version to 4.6.0
+
+  [ Debian Janitor ]
+  * Remove constraints unnecessary since buster
+
+ -- IOhannes m zmölnig (Debian/GNU) <umlaeute@debian.org>  Wed, 24 Nov 2021 17:06:31 +0100
 
 rtaudio (5.1.0~ds1-1) unstable; urgency=medium
 
