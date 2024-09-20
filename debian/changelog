@@ -1,8 +1,12 @@
-rtaudio (5.1.0~ds1-1) UNRELEASED; urgency=medium
+rtaudio (5.1.0~ds1-1deepin0) unstable; urgency=medium
 
+  [ Debian Multimedia Maintainers ]
   * update
 
- -- Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>  Wed, 25 May 2022 10:59:13 +0800
+  [ Tianyu Chen ]
+  * No source change upload against GCC 12.
+
+ -- Tianyu Chen <sweetyfish@deepin.org>  Fri, 20 Sep 2024 12:17:55 +0800
 
 rtaudio (5.1.0~ds1-1) unstable; urgency=medium
 
