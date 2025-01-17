@@ -2,7 +2,7 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: RtAudio
 Upstream-Contact: Gary P. Schiavone <gary@music.mcgill.ca>
 Source: https://www.music.mcgill.ca/~gary/rtaudio/release/
-Copyright: 2001-2014 Gary P. Scavone
+Copyright: 2001-2021 Gary P. Scavone
 Comment: The original tarball was repacked in order to remove 3rd-party header
  files (e.g. the ASIO SDK by Steinberg) which are not DFSG compliant.
 Files-Excluded:
@@ -10,18 +10,18 @@ Files-Excluded:
  .*
 
 Files: *
-Copyright: 2001-2014 Gary P. Scavone
+Copyright: 2001-2023 Gary P. Scavone
 License: other-mit
 
-#Files: contrib/python/pyrtaudio/*
-#Copyright: 2011, Antoine Lefebvre
-#License: other-mit
+Files: contrib/python/pyrtaudio/*
+Copyright: 2011, Antoine Lefebvre
+License: other-mit
 
 Files: debian/*
 Copyright:
  2012-2014 Alessio Treglia <alessio@debian.org>
  2013-2017 Jaromír Mikeš <mira.mikes@seznam.cz>
- 2017 IOhannes m zmölnig <umlaeute@debian.org>
+ 2017-2023 IOhannes m zmölnig <umlaeute@debian.org>
 License: GPL-3+
 
 License: other-mit

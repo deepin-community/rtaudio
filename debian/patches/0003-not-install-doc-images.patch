@@ -4,7 +4,7 @@ Forwarded: no
 
 --- rtaudio.orig/configure.ac
 +++ rtaudio/configure.ac
-@@ -141,8 +141,8 @@
+@@ -153,8 +153,8 @@
  AC_CONFIG_LINKS( [doc/doxygen/multi.txt:doc/doxygen/multi.txt] )
  AC_CONFIG_LINKS( [doc/doxygen/recording.txt:doc/doxygen/recording.txt] )
  AC_CONFIG_LINKS( [doc/doxygen/apinotes.txt:doc/doxygen/apinotes.txt] )
